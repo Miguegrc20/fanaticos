@@ -1,0 +1,65 @@
+* {
+  background-color: #000000;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home h1 {
+  color: #ffffff;
+}
+
+.home p {
+  color: #ffffff;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+.news-page h1 {
+  color: #ffffff;
+}
+
+.news-list {
+  margin-top: 20px;
+}
+
+.news-item {
+  border: 1px solid #ffffff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #000000;
+}
+
+.news-item h2 {
+  margin: 0 0 10px;
+  color: #ffffff;
+}
+
+.news-item p {
+  margin: 0 0 10px;
+  color: #ffffff;
+}
+
+.news-item small {
+  color: #ffffff;
+  font-size: 0.9em;
+}
