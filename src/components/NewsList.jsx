@@ -45,11 +45,10 @@ const NewsList = () => {
       },
     ];
 
-    // Ordenar noticias por fecha (de más reciente a más antigua)
     const sortedNews = exampleNews.sort(
       (a, b) => new Date(b.date) - new Date(a.date)
     );
-    // Limitar a las 5 noticias más recientes
+
     const recentNews = sortedNews.slice(0, 5);
     setNews(recentNews);
   }, []);
