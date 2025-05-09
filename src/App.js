@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import NewsList from "./components/NewsList";
 import Login from "./components/Login";
+import AdminPanel from "./components/AdminPanel";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -17,6 +18,7 @@ function App() {
         ) : (
           <>
             <NewsList />
+            <AdminPanel />
           </>
         )}
       </main>
